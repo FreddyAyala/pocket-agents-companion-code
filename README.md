@@ -137,11 +137,10 @@ This repository is designed to accompany the book. For issues or improvements:
 ## 📚 Book Information
 
 **Title**: Pocket Agents: A Practical Guide to On-Device Artificial Intelligence  
-**Author**: [Author Name]  
-**Publisher**: [Publisher Name]  
-**ISBN**: [ISBN Number]  
+**Author**: Freddy Ayala  
+**Publisher**: Self-Published  
 
-For the complete book content, purchase from your preferred retailer.
+For the complete book content, visit the main repository or contact the author.
 
 ---
 
