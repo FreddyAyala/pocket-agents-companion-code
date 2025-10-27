@@ -1,0 +1,36 @@
+# Chapter 10: The Deployment Playbook
+# On-Device AI: The Small Language Models Revolution
+
+# Core AI frameworks
+torch>=2.0.0                    # PyTorch for model operations
+transformers>=4.30.0            # HuggingFace transformers
+llama-cpp-python>=0.3.0        # llama.cpp for universal deployment
+
+# Web deployment
+gradio>=4.0.0                  # Gradio for web interfaces
+streamlit>=1.28.0              # Streamlit for web apps
+fastapi>=0.100.0               # FastAPI for production APIs
+uvicorn>=0.23.0                # ASGI server for FastAPI
+
+# Mobile deployment (optional)
+# coremltools>=7.0              # Core ML for iOS (macOS only)
+# tensorflow-lite>=2.13.0       # TensorFlow Lite for Android
+
+# WebAssembly and WebGPU (browser deployment)
+# These are JavaScript-based, but we'll provide examples
+# @xenova/transformers          # Transformers.js (npm package)
+
+# Production deployment
+psutil>=5.9.0                  # System monitoring
+pydantic>=2.0.0                # Data validation
+python-multipart>=0.0.6        # File uploads for FastAPI
+jinja2>=3.1.0                  # Template engine
+
+# Development and testing
+jupyter>=7.0.0                 # Jupyter notebook
+pytest>=7.0.0                  # Testing framework
+requests>=2.31.0               # HTTP client for testing
+
+# Optional: Advanced deployment
+# docker>=6.0.0                 # Docker for containerization
+# kubernetes>=26.0.0            # Kubernetes for orchestration

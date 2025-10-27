@@ -1,0 +1,35 @@
+# Chapter 8: The Engines That Power Intelligence
+# On-Device AI: The Small Language Models Revolution
+
+# Core inference engines
+llama-cpp-python>=0.3.0    # llama.cpp Python bindings for GGUF models
+onnx>=1.19.0               # ONNX format support
+onnxruntime>=1.23.0        # ONNX Runtime for inference
+
+# Model frameworks
+torch>=2.0.0               # PyTorch for model operations
+transformers>=4.30.0       # HuggingFace transformers
+
+# Utilities
+numpy>=1.21.0              # Numerical operations
+pandas>=1.3.0              # Data handling (optional for benchmarking)
+
+# Performance monitoring
+psutil>=5.9.0              # System resource monitoring
+tqdm>=4.65.0               # Progress bars
+
+# Jupyter notebook support
+jupyter>=7.0.0             # Jupyter notebook
+ipykernel>=6.0.0           # Jupyter kernel
+matplotlib>=3.5.0          # Plotting (for benchmarks)
+
+# Additional dependencies for complete functionality
+ml_dtypes>=0.5.0           # For ONNX compatibility
+protobuf>=4.25.0           # For ONNX serialization
+typing_extensions>=4.7.0   # For type hints
+
+# Optional: GPU acceleration
+# Uncomment based on your hardware:
+# onnxruntime-gpu>=1.23.0  # ONNX Runtime with CUDA support
+# For llama-cpp-python with GPU support, use:
+# CMAKE_ARGS="-DLLAMA_CUBLAS=on" pip install llama-cpp-python

@@ -1,0 +1,20 @@
+# Chapter 11: Taming the Edge: Memory, Context, and Concurrency
+# Pocket Agents: A Practical Guide to On‑Device Artificial Intelligence
+
+# Core dependencies
+torch>=2.0.0                   # PyTorch for device detection and GPU support
+transformers>=4.30.0           # HuggingFace transformers for model loading
+psutil>=5.9.0                  # System resource monitoring
+
+# Utilities
+numpy>=1.21.0                  # Numerical operations
+pandas>=1.3.0                  # Data handling (optional)
+
+# Testing
+pytest>=7.0.0                  # Testing framework
+pytest-cov>=4.0.0              # Coverage reporting
+
+# Jupyter notebook support
+jupyter>=7.0.0                 # Jupyter notebook
+ipykernel>=6.0.0               # Jupyter kernel
+matplotlib>=3.5.0              # Plotting for visualizations

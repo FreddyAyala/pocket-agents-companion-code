@@ -1,0 +1,35 @@
+# Chapter 13: RAG On-Device Dependencies
+
+# Core RAG and Vector Database Libraries
+chromadb>=0.4.0
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Text Processing
+nltk>=3.8.1
+spacy>=3.6.0
+tiktoken>=0.5.0
+
+# Visualization and Analysis
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Jupyter and Development
+jupyter>=1.0.0
+ipykernel>=6.25.0
+notebook>=6.5.0
+
+# Utilities
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+# Optional: For advanced features
+# faiss-gpu>=1.7.4  # Uncomment for GPU acceleration
+# torch>=2.0.0      # Uncomment for PyTorch-based embeddings

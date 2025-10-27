@@ -1,0 +1,31 @@
+# Chapter 12: On-Device Agent Fundamentals
+# On-Device AI: The Small Language Models Revolution
+
+# Core dependencies
+torch>=2.0.0
+transformers>=4.30.0
+accelerate>=0.20.0
+peft>=0.5.0  # For LoRA adapters
+
+# Tool calling and structured output
+pydantic>=2.0.0  # For data validation and structured outputs
+jsonschema>=4.0.0  # For JSON schema validation
+openai>=1.0.0  # For function calling patterns (optional)
+
+# Web and API frameworks
+fastapi>=0.68.0
+uvicorn>=0.15.0
+requests>=2.25.0
+
+# Data processing
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.5.0
+
+# System integration
+psutil>=5.8.0  # For system monitoring
+schedule>=1.2.0  # For task scheduling
+
+# Jupyter notebook support
+jupyter>=1.0.0
+ipykernel>=6.0.0

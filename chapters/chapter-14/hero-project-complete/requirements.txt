@@ -1,0 +1,37 @@
+# Chapter 14: Hero Project - Complete On-Device AI Agent
+# Pocket Agents: A Practical Guide to On-Device Artificial Intelligence
+
+# Core ML dependencies
+torch>=2.0.0
+transformers>=4.36.0
+sentence-transformers>=2.2.0
+
+# Vector database and RAG
+chromadb>=0.4.0
+faiss-cpu>=1.7.4
+
+# GGUF model support
+llama-cpp-python>=0.2.0
+
+# Vision processing
+Pillow>=10.0.0
+
+# Web UI and utilities
+gradio>=4.0.0
+jupyter>=1.0.0
+ipykernel>=6.0.0
+pyyaml>=6.0.0
+
+# Additional utilities
+numpy>=1.21.0
+matplotlib>=3.5.0
+requests>=2.25.0
+
+# OpenAI API compatibility
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.0.0
+
+# System monitoring
+psutil>=5.9.0
+tqdm>=4.65.0

@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Large model files
+*.gguf
+*.bin
+*.safetensors
+
+# Database files
+chroma_db/
+knowledge_base/
+*.sqlite3
+*.db
+
+# Generated embeddings and vector stores
+embeddings/
+vector_stores/
+
+# Test outputs
+test_output*.txt
+output.txt
+test_agent.txt
+hero_demo_real.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp

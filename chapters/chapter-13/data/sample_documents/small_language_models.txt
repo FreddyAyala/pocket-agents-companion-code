@@ -1,0 +1,18 @@
+Small Language Models (SLMs) are compact versions of large language models designed 
+to run efficiently on local devices. They typically have fewer than 10 billion parameters 
+and are optimized for speed and memory efficiency.
+
+Key advantages of SLMs include:
+- Local processing and privacy
+- Lower computational requirements
+- Faster inference times
+- Reduced memory usage
+- Cost-effective deployment
+
+Popular SLMs include TinyLlama, Phi-3, Qwen2.5, and Gemma-2B.
+
+SLMs are particularly useful for:
+- On-device AI applications
+- Edge computing scenarios
+- Privacy-sensitive applications
+- Resource-constrained environments

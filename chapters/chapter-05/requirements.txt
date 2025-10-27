@@ -1,0 +1,18 @@
+# Chapter 5: Model Compression - Quantization
+# Pocket Agents: A Practical Guide to On-Device Artificial Intelligence
+
+# Core dependencies
+torch>=2.0.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+
+# Quantization libraries
+bitsandbytes>=0.40.0
+accelerate>=0.20.0
+
+# Jupyter notebook support
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Optional: for more advanced quantization examples
+# transformers>=4.35.0
